@@ -1,0 +1,28 @@
+{
+  "name": "gerador-ficha-rpg",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.1",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
+    "autoprefixer": "10.4.14",
+    "next": "latest",
+    "postcss": "8.4.27",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "22.14.0",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}

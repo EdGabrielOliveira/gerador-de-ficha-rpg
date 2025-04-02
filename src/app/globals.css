@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 237, 213;
+  --background-rgb: 120, 53, 15;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Impact", "Charcoal", sans-serif;
+  }
+}
+
+@media print {
+  header,
+  footer,
+  button {
+    display: none !important;
+  }
+
+  .min-h-screen {
+    min-height: auto !important;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+
+  .bg-amber-800,
+  .bg-amber-900,
+  .bg-amber-950 {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid #ccc;
+  }
+
+  .text-amber-200,
+  .text-amber-300,
+  .text-amber-400 {
+    color: black !important;
+  }
+}
